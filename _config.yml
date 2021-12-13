@@ -1,4 +1,5 @@
 title: Jekyll One
+subtitle: "1 page is 1 article, 1 site is 1 book."
 email: hfl@huangfeilong.com
 description: "一页一文，一站一书。"
 twitter_username: username
@@ -13,7 +14,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Shanghai"
 
 include:
   - _pages
@@ -42,7 +43,7 @@ plugins:
 author:
   name   : "Huang Fei Long"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "我是一个能写程序的图书馆员，在程序语言中，Ruby 是我的最爱，在 Ruby 程序中，最常用的就是 Jekyll。"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
