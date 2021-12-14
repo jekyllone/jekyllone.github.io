@@ -1,4 +1,6 @@
 main:
+  - title: "手册"
+    url: /jekyll/docs/
   - title: "文章"
     url: /posts/
   - title: "分类"
